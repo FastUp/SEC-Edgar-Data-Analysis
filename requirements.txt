@@ -1,2 +1,2 @@
-shell pip install datareader 
+pandas>=0.23
 
