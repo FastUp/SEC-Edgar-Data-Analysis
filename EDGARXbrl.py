@@ -69,7 +69,7 @@ sns.set_style('whitegrid')
 # In[4]:
 
 
-data_path = os.PathLike('Volumes/Seagate Backup Plus Drive/Parth Patel_Mac/SEC Data/') # perhaps set to external harddrive to accomodate large amount of data
+data_path = os.Path('Volumes/Seagate Backup Plus Drive/Parth Patel_Mac/SEC Data/') # perhaps set to external harddrive to accomodate large amount of data
 
 if not data_path :
     os.mkdir(data_path)
