@@ -44,6 +44,8 @@ from io import BytesIO
 from zipfile import ZipFile, BadZipFile
 import requests
 
+python -m pip install pandas_datareader
+
 import pandas_datareader.data as web
 import pandas as pd
 
