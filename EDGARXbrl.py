@@ -103,7 +103,8 @@ filing_periods.extend([(this_year, q) for q in range(1, this_quarter + 1)])
 
 # In[8]:
 
-
+yr = y
+qtr = q
 
 for i, (yr, qtr) in enumerate(filing_periods, 1):
     print(f'{yr}-Q{qtr}', end=' ', flush=True)
