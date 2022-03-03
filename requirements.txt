@@ -1,2 +1,2 @@
-$ python -m pip install datareader 
+$ pip install datareader 
 
