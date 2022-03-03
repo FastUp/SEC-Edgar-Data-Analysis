@@ -74,7 +74,7 @@ data_path = st.write('Volumes/Seagate Backup Plus Drive/Parth Patel_Mac/SEC Data
 # if not data_path.exists():
 #     data_path.mkdir()
 if not data_path:
-    data_path.mkdir()
+    mkdir .data_path
 
 # The following code downloads and extracts all historical filings contained in the Financial Statement and Notes (FSN) datasets for the given range of quarters:
 
