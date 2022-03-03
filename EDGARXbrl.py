@@ -35,7 +35,7 @@ warnings.filterwarnings('ignore')
 # In[2]:
 
 
-get_ipython().run_line_magic('matplotlib', 'inline')
+#get_ipython().run_line_magic('matplotlib', 'inline')
 
 from pathlib import Path
 from datetime import date
