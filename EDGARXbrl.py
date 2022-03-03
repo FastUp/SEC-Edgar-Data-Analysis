@@ -69,9 +69,13 @@ sns.set_style('whitegrid')
 # In[4]:
 
 
-data_path = st. write('Volumes/Seagate Backup Plus Drive/Parth Patel_Mac/SEC Data/') # perhaps set to external harddrive to accomodate large amount of data
+# data_path = st. read('Volumes/Seagate Backup Plus Drive/Parth Patel_Mac/SEC Data/') # perhaps set to external harddrive to accomodate large amount of data
+data_path = st. read('/Users/parthpatel/Desktop/Tuition Fee') # perhaps set to external harddrive to accomodate large amount of data
+
+
 if not data_path.exists():
     data_path.mkdir()
+
 
 
 # The following code downloads and extracts all historical filings contained in the Financial Statement and Notes (FSN) datasets for the given range of quarters:
@@ -113,7 +117,12 @@ for i, (yr, qtr) in enumerate(filing_periods, 1):
     if not path.exists():
         path.mkdir(exist_ok=True, parents=True)
     
-    response = requests.get(SEC_URL + filing).content
+    response = requests.get(
+        
+        
+        
+        
+        + filing).content
     
     try:
 
