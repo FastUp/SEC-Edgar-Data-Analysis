@@ -58,7 +58,7 @@ import h5py
 from pandas import HDFStore
 
 import requests, zipfile
-
+import os
 
 # In[3]:
 
