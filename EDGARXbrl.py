@@ -70,7 +70,7 @@ sns.set_style('whitegrid')
 
 
 # data_path = st. read('Volumes/Seagate Backup Plus Drive/Parth Patel_Mac/SEC Data/') # perhaps set to external harddrive to accomodate large amount of data
-data_path = st. read('/Users/parthpatel/Desktop/Tuition Fee') # perhaps set to external harddrive to accomodate large amount of data
+data_path = st.file_uploader('/Users/parthpatel/Desktop/Tuition Fee') # perhaps set to external harddrive to accomodate large amount of data
 
 
 if not data_path.exists():
