@@ -110,7 +110,7 @@ for i, (yr, qtr) in enumerate(filing_periods, 1):
     print(f'{yr}-Q{qtr}', end=' ', flush=True)
     filing = f'{yr}q{qtr}_notes.zip'
     
-    path = data_path / f'{yr}{qtr}' / 'source'
+    path = data_path / f'{yr}-{qtr}' / 'source'
     
     if not path.exists():
         path.mkdir(exist_ok=True, parents=True)
